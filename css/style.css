@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Global Styles */
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #2c3e50;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+button {
+    background-color: #6C5B7B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #C06C84;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Warna Sekunder (#C06C84) */
+header > h1 {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+h1, h2, h3 {
+    color: #C06C84;
+}
+
+a {
+    color: #C06C84;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6C5B7B;
+}
+
+/* Layout Styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: #f9f9f9; */
+}
+
+/* Form Styles */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #C06C84;
+    outline: none;
+}
+
+ /* Table Styles */
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  thead {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  th,
+  td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  tbody tr:hover {
+    background-color: #e3f2fd;
+  }
+
+/* Main Content Sections */
+section {
+    scroll-margin-top: 7rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.hero-section > .container {
+    display: flex;
+}
+/* Main Content Sections */
+
+/* Geolocation Style */
+#geolocation {
+    color: #C06C84;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav a {
+        margin: 5px 0;
+    }
+    
+    main {
+        padding: 10px;
+    }
+}
