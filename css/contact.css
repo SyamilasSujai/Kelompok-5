@@ -51,7 +51,7 @@ input, textarea {
 }
 
 button {
-    background-color: #3498db;
+    background-color: var(--primary);
     color: white;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -63,7 +63,7 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: rgb(108, 91, 123, .7);
 }
 
 @media (max-width: 768px) {
