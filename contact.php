@@ -18,19 +18,11 @@
             <div class="contact-info">
                 <address>
                     <strong>Alamat:</strong><br>
-<<<<<<< HEAD
-                    Jl.SUUUIIIII<br>
-                    Jakarta Selatan, DKI Jakarta<br>
-                    Kode Pos: 12345<br><br>
-                    
-                    <strong>Email:</strong> info@Fivesider.com<br>
-=======
                     Jl. Contoh No. 123<br>
                     Jakarta Selatan, DKI Jakarta<br>
                     Kode Pos: 12345<br><br>
                     
                     <strong>Email:</strong> info@perusahaan.com<br>
->>>>>>> 416a2a5d69c6f7d6af9216d5e3b5498d5506ba1c
                     <strong>Telp:</strong> 0812-3456-7890
                 </address>
             </div>

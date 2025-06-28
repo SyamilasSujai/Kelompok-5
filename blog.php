@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-=======
-<!-- blog.html -->
->>>>>>> 416a2a5d69c6f7d6af9216d5e3b5498d5506ba1c
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinTech Insights | Blog</title>
     <link rel="stylesheet" href="css/style.css">
@@ -138,18 +133,11 @@
             transform: translateX(3px);
         }
     </style>
-=======
-    <title>Blog</title>
-    <link rel="stylesheet" href="css/style.css">
->>>>>>> 416a2a5d69c6f7d6af9216d5e3b5498d5506ba1c
 </head>
 <body>
     <?php include './components/header.php' ?>
     
     <main>
-<<<<<<< HEAD
-        
-
         <div class="blog-container">
             <div class="blog-grid">
                 <!-- Blog Post 1 -->
@@ -243,47 +231,6 @@
                 </article>
             </div>
         </div>
-=======
-        <section>
-            <h2>Blog Kami</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Judul</th>
-                        <th>Tanggal</th>
-                        <th>Penulis</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Post Pertama</td>
-                        <td>2024-01-01</td>
-                        <td>Admin</td>
-                    </tr>
-                    <tr>
-                        <td>Post Kedua</td>
-                        <td>2024-01-02</td>
-                        <td>Manager</td>
-                    </tr>
-                    <tr>
-                        <td>Post Ketiga</td>
-                        <td>2024-01-03</td>
-                        <td>Staff</td>
-                    </tr>
-                    <tr>
-                        <td>Post Keempat</td>
-                        <td>2024-01-04</td>
-                        <td>Admin</td>
-                    </tr>
-                    <tr>
-                        <td>Post Kelima</td>
-                        <td>2024-01-05</td>
-                        <td>Admin</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
->>>>>>> 416a2a5d69c6f7d6af9216d5e3b5498d5506ba1c
     </main>
 
     <?php include './components/footer.php' ?>
