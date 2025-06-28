@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
   --primary: #6C5B7B;
   --secondary: #C06C84;
   --accent: #355C7D;
@@ -209,3 +210,267 @@ body {
   color: var(--secondary);
   border-bottom: 2px solid var(--secondary);
 }
+=======
+    --primary: #6C5B7B;
+    --secondary: #C06C84;
+    --accent: #355C7D;
+    --bg-light: #F8F8FF;
+    --text-primary: #282828;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Global Styles */
+body {
+    background-color: var(--bg-light);
+    color: var(--text-primary);
+}
+
+header {
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--secondary);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+header a h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header a:hover h1 {
+    color: rgb(192, 108, 132, .7)
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    /* transition: background-color 0.3s, color 0.3s;
+    padding: .5rem .75rem;
+    border-radius: .5rem; */
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--secondary);
+    transition: width 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+nav a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--secondary);
+}
+
+ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+button {
+    background-color: #6C5B7B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #C06C84;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Warna Sekunder (#C06C84) */
+header > h1 {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+h1, h2, h3 {
+    color: #C06C84;
+}
+
+a {
+    color: #C06C84;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6C5B7B;
+}
+
+/* Layout Styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: #f9f9f9; */
+}
+
+/* Form Styles */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #C06C84;
+    outline: none;
+}
+
+ /* Table Styles */
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  thead {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  th,
+  td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  tbody tr:hover {
+    background-color: #e3f2fd;
+  }
+
+/* Main Content Sections */
+section {
+    scroll-margin-top: 7rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.hero-section > .container {
+    display: flex;
+}
+/* Main Content Sections */
+
+/* Geolocation Style */
+#geolocation {
+    color: #C06C84;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+        gap: 0.25rem;
+        margin-top: 0.5rem;
+    }
+    
+    main {
+        padding: 10px;
+    }
+}
+>>>>>>> 416a2a5d69c6f7d6af9216d5e3b5498d5506ba1c
